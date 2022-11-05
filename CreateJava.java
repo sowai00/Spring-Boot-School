@@ -7,7 +7,7 @@ public class CreateJava {
     public static void main(String[] args) {
         String filename;
         Scanner scanner = new Scanner(System.in);
-        System.out.println("enter a file name");
+        System.out.println("Enter a file name");
         filename = scanner.nextLine();
         try {
 
@@ -16,7 +16,7 @@ public class CreateJava {
                 System.out.println("File created: " + myObj.getName());
                 FileWriter myWriter = new FileWriter(filename + ".java");
                 myWriter.write("public class " + filename
-                        + " {\n.    public static void main(String[] args) {\n\n}");
+                        + " {\n    public static void main(String[] args) {\n\n}\n}");
                 myWriter.close();
                 System.out.println("Successfully wrote to the file.");
             } else {
