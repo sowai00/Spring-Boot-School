@@ -1,11 +1,12 @@
 package Car;
 
-public class Car extends Vehicle {
+public class Bicycle extends Vehicle {
 
     @Override
     void go() {
         // TODO Auto-generated method stub
 
-        System.out.println("the car is go");
+        System.out.println("the Bicycle is go");
     }
+
 }
