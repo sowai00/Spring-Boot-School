@@ -1,3 +1,6 @@
+
+package Car;
+
 public class Boat extends Vehicle {
 
     @Override
