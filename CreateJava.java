@@ -11,14 +11,23 @@ public class CreateJava {
         filename = scanner.nextLine();
         try {
 
-            File myObj = new File(filename + ".java");
-            if (myObj.createNewFile()) {
-                System.out.println("File created: " + myObj.getName());
+            File file = new File(filename + ".java");
+            if (file.createNewFile()) {
+                System.out.println("File created: " + file.getName());
                 FileWriter myWriter = new FileWriter(filename + ".java");
                 myWriter.write("public class " + filename
                         + " {\n    public static void main(String[] args) {\n\n}\n}");
                 myWriter.close();
                 System.out.println("Successfully wrote to the file.");
+                System.out.println("File path: " + file.getPath());
+                System.out.println("isFile : " + file.isFile());
+                System.out.println("File name: " + file.getName());
+                System.out.println("Absolute path: " + file.getAbsolutePath());
+                System.out.println("Writeable: " + file.canWrite());
+                System.out.println("Readable " + file.canRead());
+                System.out.println("File size in bytes " + file.length());
+
+
             } else {
                 System.out.println("File already exists.");
             }
