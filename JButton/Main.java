@@ -11,8 +11,8 @@ public class Main {
 
         // new MyFrame(); // MyFrame
         // new MyButton();// MyButton
-        new MyGridLayout(); // GridLayout
-
+        // new MyGridLayout(); // GridLayout
+        new MyLayouts();
 
 
         // JFrame frame = new JFrame();
