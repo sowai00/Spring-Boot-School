@@ -9,7 +9,11 @@ import java.awt.Dimension;
 public class Main {
     public static void main(String[] args) {
 
-        new MyFrame(); // MyFrame
+        // new MyFrame(); // MyFrame
+        // new MyButton();// MyButton
+        new MyGridLayout(); // GridLayout
+
+
 
         // JFrame frame = new JFrame();
         // frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
