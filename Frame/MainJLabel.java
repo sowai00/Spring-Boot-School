@@ -7,8 +7,6 @@ import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.border.Border;
-import javax.swing.plaf.ColorUIResource;
-import javax.swing.plaf.synth.ColorType;
 
 public class MainJLabel {
     public static void main(String[] args) {
