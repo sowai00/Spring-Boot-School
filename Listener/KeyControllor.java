@@ -78,7 +78,7 @@ public class KeyControllor extends JFrame implements KeyListener {
             case 37:
                 label.setLocation(label.getX() - 10, label.getY());
                 break;
-            case 28:
+            case 38:
                 label.setLocation(label.getX() + 10, label.getY());
                 break;
             case 39:
