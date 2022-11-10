@@ -3,13 +3,12 @@ package Complax;
 import java.awt.*;
 import javax.imageio.ImageIO;
 import javax.swing.*;
-import org.w3c.dom.events.MouseEvent;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseMotionAdapter;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
+import java.awt.event.MouseEvent;
 
 
 public class DragPanel extends JPanel {
