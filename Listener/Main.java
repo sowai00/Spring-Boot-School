@@ -1,8 +1,11 @@
 package Listener;
 
+import java.io.IOException;
+
 public class Main {
-    public static void main(String[] args) {
-        new MyProgressBar();
+    public static void main(String[] args) throws IOException {
+        new MyMenuBar();
+        // new MyProgressBar();
         // new SliderDemo();
     }
 }
