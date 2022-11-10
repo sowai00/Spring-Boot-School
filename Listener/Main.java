@@ -4,7 +4,10 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        new MyMenuBar();
+        new KeyControllor();
+        // new ColorChooser();
+        // new MyJFileChooser();
+        // new MyMenuBar();
         // new MyProgressBar();
         // new SliderDemo();
     }
